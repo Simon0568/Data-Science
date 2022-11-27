@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 hours = []
-print(range(0, 8, 1))
+
 for day in days:
     hours.append(int(input(f"Enter the amount of hours for the day {day}: ")))
   
